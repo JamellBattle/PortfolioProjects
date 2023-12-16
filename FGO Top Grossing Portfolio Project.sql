@@ -63,7 +63,6 @@ Select BannerMonth, SUM(LimitedServants) AS LimitedServants, SUM(NewServants) AS
 From #BannerInfo
 WHERE BannerYear = 2021
 GROUP BY BannerMonth
-ORDER BY BannerMonth
 
 -- Looking at which months Fate/Grand Order was within top 15 in Top Grossing charts in 2021
 -- Worldwide, across all app stores. Will be exploring the BannerInfo table again based on this information
